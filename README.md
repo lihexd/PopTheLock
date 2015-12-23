@@ -11,17 +11,17 @@ Pop The Lock based on TIZEN web project development, mainly USES The technology 
   
 Pop The Lock基于TIZEN web project开发，主要使用了Html与Javascript技术。通过在ontouchstart、ontouchmove和ontouchend方法中计算手指触碰来判断原点是否与横线相接触，从而进抵消、加分或结束等操作。  
 ##    
-interface	Interface functions 
+interface               	Interface functions 
 
-Init		Initialize the game interface  
+Init	                 	Initialize the game interface  
 
-NewTile		Initialize the origin and the horizontal line   
+NewTile	                	Initialize the origin and the horizontal line   
 
-RandomTile	Randomly generated new dash  
+RandomTile              	Randomly generated new dash  
 
-move		Move the origin   
+move	                 	Move the origin   
 
-Merge		To offset the origin and the horizontal line  
+Merge		                To offset the origin and the horizontal line  
 
 
 ```js
