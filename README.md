@@ -1,11 +1,23 @@
 # Tizen-App-PopTheLock
 
-## 概述
-Pop The Lock is a leisure game for Tizen mobile phones and Samsung Gear S2. Through a circular slide rail, there is a small dot on the slide, at the same time there is a bottom line generally small vertical lines, as a symbol of the end of the game, if the player control dots that crosses the vertical bar the game failed. Through stimulation of the hand of the spirit of fast activities and highly concentrated to alleviate the pressure of the people in daily life. This app not only runs well in Tizen mobile phones, but also runs well in Gear S2.
+## Introduction/概述
+Pop The Lock is a leisure game for Tizen mobile phones and Samsung Gear S2. Through a circular slide rail, there is a small dot on the slide, at the same time there is a bottom line generally small vertical lines, as a symbol of the end of the game, if the player control dots that crosses the vertical bar the game failed. Through stimulation of the hand of the spirit of fast activities and highly concentrated to alleviate the pressure of the people in daily life. This app not only runs well in Tizen mobile phones, but also runs well in Gear S2.  
+  
+  
 Pop The Lock 是一款休闲游戏，针对长时间使用手机的人，缓解长期使用手机的疲累，锻炼人的反应能力。通过一个圆形滑轨，有一个小圆点在其上滑动，同时有一个底线一般的小竖线，作为游戏结束的标志，如果玩家的控制的小圆点跨过了竖线则游戏失败。通过刺激人的手的快速活动和精神的高度集中来缓解人们在日常生活中的压力。非常好玩。
-## 算法介绍
-Pop The Lock based on TIZEN web project development, mainly USES The technology of Html and Javascript. By ontouchstart, ontouchmove and ontouchend method in computing the fingers touch to determine whether the origin and horizontal line contact, thus into the offset, the end points or operations.
-Pop The Lock基于TIZEN web project开发，主要使用了Html与Javascript技术。通过在ontouchstart、ontouchmove和ontouchend方法中计算手指触碰来判断原点是否与横线相接触，从而进抵消、加分或结束等操作。
+## Algorithm/算法介绍
+Pop The Lock based on TIZEN web project development, mainly USES The technology of Html and Javascript. By ontouchstart, ontouchmove and ontouchend method in computing the fingers touch to determine whether the origin and horizontal line contact, thus into the offset, the end points or operations.  
+  
+  
+Pop The Lock基于TIZEN web project开发，主要使用了Html与Javascript技术。通过在ontouchstart、ontouchmove和ontouchend方法中计算手指触碰来判断原点是否与横线相接触，从而进抵消、加分或结束等操作。  
+##    
+interface	Interface functions
+Init		Initialize the game interface
+NewTile		Initialize the origin and the horizontal line 
+RandomTile	Randomly generated new dash
+move		Move the origin 
+Merge		To offset the origin and the horizontal line
+
 ```js
 var WINDOWS_WIDTH=window.screen.width;
 var WINDOWS_HEIGHT=window.screen.height;
